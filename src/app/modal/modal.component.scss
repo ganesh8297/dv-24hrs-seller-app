@@ -1,0 +1,25 @@
+#card{
+    background-color: transparent !important;
+border-radius: 0px !important;
+border:1px solid #fff;
+}
+.items{
+    align-items: center !important;
+    margin:5px !important;
+}
+.gallary-btn, .upload-btn{
+    font-size: smaller;
+    margin: 6px;
+   
+    background-color:#29C17E;
+    border:1px solid #29C17E;
+    
+}
+#close{
+    color:red;
+    cursor: pointer;
+}
+#close:hover{
+    color: rgb(126, 2, 2);
+}
+
