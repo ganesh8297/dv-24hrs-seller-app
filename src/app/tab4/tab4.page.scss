@@ -21,15 +21,7 @@
     margin-left:15px !important;
     color:#6E7989;
 }
-ion-content {
-  background-color:#FFD833 !important;
-  --offset-bottom: auto!important;
-  --overflow: hidden;
-  overflow: auto;
-  &::-webkit-scrollbar {
-      display: none;
-  }
-}
+
 input[type=text] {
   margin: 0 5px;
   margin-top: -12px;
@@ -62,4 +54,13 @@ input[type=text] {
  
   
  
+}
+ion-content {
+  background-color:#FFD833 !important;
+  --offset-bottom: auto!important;
+  --overflow: hidden;
+  overflow: auto;
+  &::-webkit-scrollbar {
+      display: none;
+  }
 }

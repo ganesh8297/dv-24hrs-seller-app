@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -8,6 +9,10 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   constructor(private router: Router) {}
+
+  
+  
+
   close(){
     this.router.navigate(['/'])
   }
@@ -17,7 +22,8 @@ export class AppComponent {
   } 
 
   myproducts(){
-    this.router.navigate(['/myproducts'])             
+    this.router.navigate(['/myproducts'])
+              
   }
 
   promotion(){
@@ -36,4 +42,6 @@ export class AppComponent {
   support(){
     this.router.navigate(['/support'])             
   }
+
+  
 }

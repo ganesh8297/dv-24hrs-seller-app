@@ -1,21 +1,35 @@
 <ion-menu  side="start" type="push" contentId="main">
   <ion-toolbar>
       <div class="row mt-3">
-        
-        <div class="col-4" style="margin:0 10%; color: #5C5C5C;">
+        <div class="col-1 mt-3">
+          <ion-buttons style="margin-left:20px;color:#121212"  >
+            <ion-menu-button style="margin-left:15%;color:#121212" autoHide="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+              </svg>
+            </ion-menu-button>
+          </ion-buttons>
+        </div>
+        <div class="col-8" style="margin-left:30px; color: #5C5C5C;">
           <h1><b>24hrs</b></h1>
         </div>
       </div>
   </ion-toolbar>
 
 <ion-content>
-  <ion-list no-lines>
-    <ion-item no-lines>
-      <img height="50px" (click)="home()" width="50px" src="assets/icon/home.PNG" alt="">
-        <p class="list">Home</p>
-    </ion-item>
+  
+  <ion-list >
+
+      <ion-menu-button style="display: table-row;" >
+        <ion-item>
+          <img  height="50px" (click)="home()" width="50px" src="assets/icon/home.PNG" alt="">
+            <p class="list">Home</p>
+        </ion-item>
+      </ion-menu-button>
+
     <ion-item>
-      <img height="50px" (click)="myproduct()" width="50px" src="assets/icon/myproduct.PNG" alt="">
+      <img height="50px"  (click)="myproducts()" width="50px" src="assets/icon/myproduct.PNG" alt="">
        <p class="list">My Products</p> 
     </ion-item>
     <ion-item>
@@ -51,6 +65,8 @@
         <p class="list">Log out </p>
     </ion-item>
   </ion-list>
+
+  
 </ion-content>
 </ion-menu>
 
