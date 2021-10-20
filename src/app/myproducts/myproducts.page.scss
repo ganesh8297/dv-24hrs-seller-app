@@ -18,9 +18,13 @@
   span{
       font-size: smaller;
   }
-  .price,.product-name{
+  .price{
       margin-top: -10px !important;
       text-align: center;
+  }
+  .product-name{
+    margin-top: -10px !important;
+      text-align: left;
   }
   #cross{
       cursor: pointer;

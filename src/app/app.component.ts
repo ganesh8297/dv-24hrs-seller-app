@@ -11,4 +11,29 @@ export class AppComponent {
   close(){
     this.router.navigate(['/'])
   }
+
+  home(){
+    this.router.navigate(['/tabs'])             
+  } 
+
+  myproducts(){
+    this.router.navigate(['/myproducts'])             
+  }
+
+  promotion(){
+    this.router.navigate(['/tabs/tab2'])             
+  }
+
+  offers(){
+    this.router.navigate(['/tabs/tab4'])             
+  }
+
+
+  myprofile(){
+    this.router.navigate(['/tabs/tab5'])             
+  }
+
+  support(){
+    this.router.navigate(['/support'])             
+  }
 }
