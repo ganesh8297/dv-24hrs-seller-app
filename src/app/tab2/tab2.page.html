@@ -22,9 +22,108 @@
 </ion-header> 
 
 <ion-content class="bg-class" [fullscreen]="true">
+
+  <div class=" card">
+    <div id="dynamicSpline"  ></div>
+    <div class="row">
+      <div class="col-4">
+        <div class="row">
+          <div class="col-2">
+            <ion-badge style="background-color: #29C17E;">80%</ion-badge>
+          </div>
+          <div class="col-10">
+            <p class="viewSts" style="font-size: 10px;"> Viewed</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="row">
+          <div class="col-2">
+            <ion-badge style="background-color: #FEC501;">12%</ion-badge>
+          </div>
+          <div class="col-10">
+            <p class="viewSts" style="font-size: 10px;"> Not viewed</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="row">
+          <div class="col-2">
+            <ion-badge style="background-color: #5BC0EB;">8%</ion-badge>
+          </div>
+          <div class="col-10">
+            <p class="viewSts" style="font-size: 10px; "> Expired</p>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
   
+  
+  <div class=" card">
+    
+    <div class="row"> 
+      <div class="col-6" >
+         <b style="font-size: 13px;margin:10px;color: #5C5C5C"> Offers Posted</b>
+      </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      <div class="col-3">
+        <b style="font-size: 13px;margin-left:5px;color: #5C5C5C"> Date</b>
+      </div>
 
+      <div class="col-3">
+        <b style="font-size: 13px;margin-left:5px;color: #5C5C5C;"> Time</b>
+      </div>
+
+    </div>
+
+    <div class="row mt-3"> 
+      <div class="col-6" >
+         <b style="font-size: 13px;margin:10px;color: #29C17E"> Red Onions</b>
+      </div>
+
+      <div class="col-3">
+        <p style="font-size: 13px;margin-left:-22px;color: #5C5C5C"> 15/06/2021</p>
+      </div>
+
+      <div class="col-3">
+        <p style="font-size: 13px;margin-left:2px;color: #5C5C5C;"> 13:04</p>
+      </div>
+
+    </div>
+
+    <div class="row"> 
+      <div class="col-6" >
+         <b style="font-size: 13px;margin:10px;color: #29C17E"> Carrot</b>
+      </div>
+
+      <div class="col-3">
+        <p style="font-size: 13px;margin-left:-22px;color: #5C5C5C"> 17/06/2021</p>
+      </div>
+
+      <div class="col-3">
+        <p style="font-size: 13px;margin-left:2px;color: #5C5C5C;">21:10</p>
+      </div>
+
+    </div>
+
+    <div class="row"> 
+      <div class="col-6" >
+         <b style="font-size: 13px;margin:10px;color: #29C17E"> Ginger</b>
+      </div>
+
+      <div class="col-3">
+        <p style="font-size: 13px;margin-left:-22px;color: #5C5C5C"> 13/06/2021</p>
+      </div>
+
+      <div class="col-3">
+        <p style="font-size: 13px;margin-left:2px;color: #5C5C5C;"> 18:04</p>
+      </div>
+
+    </div>
+
+ 
+  </div>
   
 </ion-content>
